@@ -13,6 +13,6 @@ The list of actions and video annotations are provided in this repository.
 The following instructions are for evaluating Ovis2-8B, the top-performing model on our dataset. Other models can be evaluated using a similar script.
 
 1. Set up the environment by following the [official Ovis2 instructions](https://github.com/AIDC-AI/Ovis).
-2. Download the `mcq` dataset from [this repository](https://github.com/iSafetyBench/data/tree/main/mcq).
+2. Download the `mcq` questions from [this repository](https://github.com/iSafetyBench/data/tree/main/mcq).
 3. Update the file paths in the `evaluate_ovis.py` script, available [here](https://github.com/iSafetyBench/data/blob/main/evaluate_ovis.py).
 4. Run the script. Our setup used an NVIDIA RTX A6000 (48 GB) GPU.
